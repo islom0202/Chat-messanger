@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-messaging",
+    "version": "6.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "6.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-6.1.5.jar",
+          "url": "spring-messaging-6.1.5.jar",
+          "size": 614799,
+          "sha512": "9540aad888bfe651acead1df91038f1ec3094d33de688d1c1fd8abdc1b4dbcffc8291b943d10f6050ebddee0db243dd7d19dbb3c3ed514c7b150388b0c9bb9c7",
+          "sha256": "2185845b1fe67c1b78c08eeb711f623d889e30bc34248fa5307d59bccce7f03a",
+          "sha1": "d3b0857d07b167a124100c43a41296b07f09388f",
+          "md5": "e1f6f8dd0a78dd098d693fc80d3bc8ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "6.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-6.1.5.jar",
+          "url": "spring-messaging-6.1.5.jar",
+          "size": 614799,
+          "sha512": "9540aad888bfe651acead1df91038f1ec3094d33de688d1c1fd8abdc1b4dbcffc8291b943d10f6050ebddee0db243dd7d19dbb3c3ed514c7b150388b0c9bb9c7",
+          "sha256": "2185845b1fe67c1b78c08eeb711f623d889e30bc34248fa5307d59bccce7f03a",
+          "sha1": "d3b0857d07b167a124100c43a41296b07f09388f",
+          "md5": "e1f6f8dd0a78dd098d693fc80d3bc8ab"
+        }
+      ]
+    }
+  ]
+}
